@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 cat << EOF
-addons: []
+---
 default_process_types:
   worker: python3 bot.py
 EOF
